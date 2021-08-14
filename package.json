@@ -1,0 +1,27 @@
+{
+  "name": "game-editor",
+  "version": "1.0.0",
+  "description": "game editor for Egypt2 - working title",
+  "main": "build/app.js",
+  "dependencies": {
+    "electron": "^13.1.9",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "adrianus": "echo 'buna dimineata adrianus!'",
+    "compile": ". compile.sh",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianpoplesanu/game-editor.git"
+  },
+  "author": "Adrian Poplesanu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianpoplesanu/game-editor/issues"
+  },
+  "homepage": "https://github.com/adrianpoplesanu/game-editor#readme"
+}
