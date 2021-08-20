@@ -2,10 +2,21 @@
   <head>
     <title>Egypt2 - game editor</title>
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <script>var exports = {};</script> <!-- this is a dirty and also beutiful hack: https://stackoverflow.com/questions/43042889/typescript-referenceerror-exports-is-not-defined -->
     <script src="index.js"></script>
     <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
     <h1>Egypt2 - game editor</h1>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div>
+        <button id="new-board-btn">New board</button>
+        <button id="player-btn">Player</button>
+        <button id="bomb-btn">Bomb</button>
+        <button id="info-btn">Info</button>
+        <button id="sand-btn">Sand</button>
+        <button id="save-btn">Save</button>
+        <button id="load-btn">Load</button>
+    </div>
   </body>
 </html>
